@@ -75,15 +75,16 @@
 
 
 .person-list{
+    content: '✓';
 
 }
 
 
 .my{
+    position: absolute;
     font-weight: 700;
     font-size: 40px;
-    position: absolute;
-    text-align: right;
+    text-align: left;
 
 }
 
@@ -91,14 +92,20 @@
     font-weight: 400;
     font-size: 15px;
     position: absolute;
-    text-align: right;
+    text-align: left;
 }
 
 .footer{
-    color: black;
-    position: absolute;
-    width: 1600px;
-    height: 577px;
-    left: 0px;
-    top: 2651.96px;
+    display: flex;
+    justify-content: space-around;
+    background: #151414;
+    color: white;
+    margin-top: 100px;
+    padding: 116px 0px 500px 0px;
+}
+
+.future{
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
