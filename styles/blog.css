@@ -148,7 +148,7 @@ ul li:before {
     background-size: 80%;
     background-blend-mode: screen;
     
-    height: 30vh;
+    height:300px; 
     padding: 40px;
 
 }
