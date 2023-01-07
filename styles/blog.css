@@ -81,6 +81,14 @@ color: #005FAC;
 
 }
 
+.person{
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 140px;
+    margin: 0 200px;
+    padding-top: 140px;
+}
+
 
 .footer{
     color: black;
@@ -89,5 +97,4 @@ color: #005FAC;
     height: 577px;
     left: 0px;
     top: 2651.96px;
-
 }
