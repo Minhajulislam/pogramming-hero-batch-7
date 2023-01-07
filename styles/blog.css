@@ -93,14 +93,25 @@ color: #005FAC;
     text-align: right;
 }
 
+
+.person-list{
+
+}
+
+
 .my{
     font-weight: 700;
     font-size: 40px;
+    position: absolute;
+    text-align: right;
+
 }
 
 .Contrary{
     font-weight: 400;
     font-size: 15px;
+    position: absolute;
+    text-align: right;
 }
 
 .footer{
