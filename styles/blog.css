@@ -1,4 +1,6 @@
 
+
+
 .header{
     height: 808px;
     width: 1600px;
@@ -27,14 +29,14 @@
 }
 
 .there{
-    color: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     text-align: right;
-
     font-family: 'Work Sans';
     font-style: normal;
+    color: #FFFFFF;
+
     position: absolute;
     width: 494px;
     height: 78px;
@@ -44,41 +46,19 @@
 
 .Contact{
     position: absolute;
-width: 109px;
-height: 23px;
-left: 1236px;
-top: 599px;
-
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 23px;
-text-align: right;
-margin-right: 5px;
-
-color: #005FAC;
-
-
-    
-    border: 0;
-    padding-top: 15px;
-    padding: 15px 35px;
+    margin-top: 20px;
     border-radius: 5px;
-    position: absolute;
-    width: 160px;
-    height: 64px;
+    width: 109px;
+    height: 23px;
     left: 1210px;
-    top: 600px;
-
-    font-style: normal;
+    top: 599px;
+    border: none;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
-    text-align: right;
-
-
-
+    text-align:center;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
 }
 
 .person{
