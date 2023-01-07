@@ -70,18 +70,16 @@
 }
 
 .info{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: left;
     text-align: right;
 }
 
 
-.person-list{
-    content: '✓';
-
-}
-
 
 .my{
-    position: absolute;
+    position:absolute;
     font-weight: 700;
     font-size: 40px;
     text-align: left;
@@ -89,11 +87,46 @@
 }
 
 .Contrary{
-    font-weight: 400;
+    /* font-weight: 400;
     font-size: 15px;
-    position: absolute;
+    position: absolute; */
     text-align: left;
 }
+
+
+.all-plans{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.my-plans{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 0px 100px;
+}
+
+.plan-name {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-work {
+    color:grey;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
 
 .footer{
     display: flex;
