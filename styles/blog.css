@@ -61,38 +61,49 @@
     color: #005FAC;
 }
 
-.person{
+
+/* ..................... My failure .............. */
+
+.failure-person {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-right: 20px;
-    margin-top: 140px;
-    margin: 0 200px;
-    padding-top: 140px;
 }
 
-.info{
-    /* display: flex; */
-    /* justify-content: center; */
-    align-items: left;
-    text-align: right;
+.person-work {
+    margin: 100px;
 }
 
-
-
-.my{
-    position:absolute;
+.person-failure {
     font-weight: 700;
     font-size: 40px;
-    text-align: left;
+    margin-bottom: 20px;
+} 
 
+
+.person-text {
+    font-size:none;
+    margin-bottom: 10px;
 }
 
-.Contrary{
-    /* font-weight: 400;
-    font-size: 15px;
-    position: absolute; */
-    text-align: left;
+
+ul {
+    list-style: none;
 }
 
+ul li {
+    padding: 5px;
+    
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+    margin-right: 12px;
+}
+
+
+/* ................... My Plans............... */
 
 .all-plans{
     margin-bottom: 50px;
@@ -128,17 +139,116 @@
 
 
 
-.footer{
-    display: flex;
-    justify-content: space-around;
-    background: #151414;
-    color: white;
-    margin-top: 100px;
-    padding: 116px 0px 500px 0px;
+
+.postive-mind {
+    /* background-image: url(./images/watch.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-image: linear-gradient(90deg, #051c81 0%, rgba(128, 149, 243, 0) 100%), url(./images/watch.png);
+    height: 30vh;
+    padding: 40px;
+
 }
 
-.future{
+.postive-mind-content {
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+.postive-mind-title {
+    font-weight: 700;
+    font-size: 40px;
+    color:white;
+}
+
+
+.call-now{
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 5px;
+    /* width: 100px;
+    height: 20px; */
+    border: none;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 20px;
+    text-align:center;
+    width: 150px;
+    height: 50px;
+    color: #005FAC;
+}
+
+
+
+
+/* ................... Footer............... */
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background:black;
+    color: white;
+    margin-top: 1000px;
+    padding: 116px 0px 80px 0px;
+}
+
+
+.footer-left{
+    text-align:left;
+
+}
+
+
+
+.footer-right{
+
+    text-align:right;
+
+}
+
+
+
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
     padding-bottom: 20px;
+}
+
+.subscribe-button{
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 5px;
+    /* width: 100px;
+    height: 20px; */
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
+    width: 150px;
+    height: 50px;
+    color: black;
+
+
+}
+
+.email {
+    margin: 10px 0px;
+}
+
+.mobile {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    padding: 7px;
 }
